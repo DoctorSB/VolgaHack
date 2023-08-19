@@ -1,16 +1,16 @@
 <template>
   <div class="app">
-    <residents></residents>
+    <resident></resident>
   </div>
 </template>
 
 
 <script>
-import residents from "@/vue/residents.vue";
+import resident from "@/vue/resident.vue";
 
 export default {
   components: {
-    residents
+    resident
   }
 }
 </script>
