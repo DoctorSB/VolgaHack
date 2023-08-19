@@ -1,0 +1,47 @@
+{
+    "Концерт музыкальной группы \"МЫСЛИМИМА\"": {
+        "type": "Концерт",
+        "title": "Концерт музыкальной группы \"МЫСЛИМИМА\"",
+        "date": "Стоимость 800 рублей.",
+        "cost": "Дата: 13 августа",
+        "location": "Крыша",
+        "image_src": "https://stzv.ru/assets/cache_image/assets/uploads/t53cpe-1690896732-photo-2023-07-25-16-11-08_620x0_6a2.jpg",
+        "link": "https://stzv.ruevents/kontsert-muzykalnoy-gruppy-myslimima.html"
+    },
+    "Музыкально-поэтический вечер": {
+        "type": "Концерт",
+        "title": "Музыкально-поэтический вечер",
+        "date": "Стоимость 2000 рублей.",
+        "cost": "Дата: 16 августа",
+        "location": "Крыша",
+        "image_src": "https://stzv.ru/assets/cache_image/assets/uploads/ibrchu-1689857106-afisha-sanset-16-08-poet-kopiya_620x0_6a2.jpg",
+        "link": "https://stzv.ruevents/muzykalno-poeticheskiy-vecher.html"
+    },
+    "Открытый лекторий \"Креатив на волге\"": {
+        "type": "Конференция",
+        "title": "Открытый лекторий \"Креатив на волге\"",
+        "date": "Бесплатно.",
+        "cost": "Дата: 20 августа",
+        "location": "Лекторий",
+        "image_src": "https://stzv.ru/assets/cache_image/assets/uploads/m6r4wa-1691068125-afisha-7016h4961-montazhnaya-oblast-1_620x0_6a2.jpg",
+        "link": "https://stzv.ruevents/otkrytyy-lektoriy-kreativ-na-volge.html"
+    },
+    "Джем акустической музыки": {
+        "type": "Концерт",
+        "title": "Джем акустической музыки",
+        "date": "Стоимость 900 рублей.",
+        "cost": "Дата: 24 августа",
+        "location": "Крыша",
+        "image_src": "https://stzv.ru/assets/cache_image/assets/uploads/37srop-1691845776-afisha-sanset-24-08-dzhem-pechat_620x0_789.png",
+        "link": "https://stzv.ruevents/dzhem-akusticheskoy-muzyki.html"
+    },
+    "SUNSET WEEKEND. Dj LONG ARM": {
+        "type": "Вечеринка",
+        "title": "SUNSET WEEKEND. Dj LONG ARM",
+        "date": "Стоимость 2000 рублей.",
+        "cost": "Дата: 27 августа",
+        "location": "Крыша",
+        "image_src": "https://stzv.ru/assets/cache_image/assets/uploads/4xp3q0-1691065137-photo-2023-08-02-13-45-15_620x0_6a2.jpg",
+        "link": "https://stzv.ruevents/sunset-weekend-dj-long-arm.html"
+    }
+}
