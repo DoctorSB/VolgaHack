@@ -1,0 +1,48 @@
+.resident {
+    padding-top: 20px;
+}
+
+.container {
+    width: 75vw;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.header-container {
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: black;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.container-info {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.container-button {
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+}
+
+.container-button:hover {
+    background-color: #934c50;
+    color: black;
+}
