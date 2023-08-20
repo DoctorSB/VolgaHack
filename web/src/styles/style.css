@@ -13,26 +13,53 @@
     padding-bottom: 50px;
 }
 
+container-main-image {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
 .container img {
     width: 100%;
-    border: 1px solid gray;
     height: auto;
 }
 
-.header-container {
+.header-container-cluster {
     padding-top: 10px;
     text-align: center;
     text-decoration: underline;
     text-decoration-color: red;
     color: black;
-    font-size: 24px;
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+
+.resident-image {
+    width: 75vw;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.cluster-image {
+    width:10vw;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.header-container-resident {
+    padding-top: 10px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: black;
+    font-size: 28px;
     padding-bottom: 10px;
 }
 
 .container-info {
     text-align: center;
     font-size: 18px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .container-button {
@@ -50,4 +77,73 @@
 .container-button:hover {
     background-color: #934c50;
     color: black;
+}
+
+.resident-info {
+    padding-top: 15px;
+}
+
+.resident-info-title {
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.resident-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: none;
+    padding-bottom: 20px;
+}
+
+.resident-info-stats,
+.resident-info-stats-number {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: crimson;
+}
+
+.resident-info-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.resident-info-stats-number {
+    font-weight: bold;
+}
+
+@keyframes showPanel {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.resident-info.show {
+    animation: showPanel 0.5s forwards;
+}
+
+.hashtag-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hashtag {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: crimson;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 10px;
 }
