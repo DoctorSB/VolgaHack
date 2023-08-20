@@ -1,17 +1,12 @@
 <template>
-  <div class="app">
-    <resident></resident>
-  </div>
+  <div class="app"></div>
+  <router-view></router-view>
 </template>
 
 
 <script>
-import resident from "@/vue/resident.vue";
-
 export default {
-  components: {
-    resident
-  }
+
 }
 </script>
 
