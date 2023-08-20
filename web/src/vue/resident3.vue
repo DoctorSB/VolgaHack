@@ -1,15 +1,15 @@
 <template>
   <div class="resident">
     <div class="container">
-      <div><img :src=residents[2].image1path alt="{{residents[2].header}}"></div>
-      <div class="header-container"><strong>{{ residents[2].header }}</strong></div>
-      <div class="container-info">{{ residents[2].information }}</div>
+      <div><img :src=residents[2].image alt="{{residents[2].title}}"></div>
+      <div class="header-container"><strong>{{ residents[2].title }}</strong></div>
+      <div class="container-info">{{ residents[2].info }}</div>
     </div>
   </div>
 </template>
 
 <script>
-import residents from "../js/residents";
+import residents from "@/scripts/residents";
 
 export default {
   mixins: [residents]
@@ -18,5 +18,5 @@ export default {
 </script>
 
 <style scoped>
-@import "../styles/residents.css";
+@import "@/styles/style.css";
 </style>
